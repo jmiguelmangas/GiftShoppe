@@ -52,7 +52,7 @@
     border-radius: 9px;
     font-size: 20px;
     cursor: pointer;
-    
+    transition: 1s ease all;
     z-index: 2;
     
   }

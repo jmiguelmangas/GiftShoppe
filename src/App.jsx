@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <div className="app">
       <nav className='nav'>
-          <img src="/images/logo.svg" alt="GiftShoppe Logo" />
+          <img src="/images/logo.png" alt="GiftShoppe Logo" />
           <div className="nav-links">
             <Link to="/">Inicio</Link>
             <Link to="/products">Productos</Link>
