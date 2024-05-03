@@ -1,10 +1,19 @@
+import "./styles/HomePage.css"
+import {Link } from 'react-router-dom';
 const HomePage = () => {
-    return (
-      <div>
-        <h1>GiftShoppe - Página de Inicio</h1>
+  return (
+    <div className="homepage">
+      <div className="cta">
+        <img src="/images/cta-image.jpg" alt="CTA Image" /> 
+        <section className="content">
+          <h2>Encuentra el regalo perfecto para cualquier ocasión</h2>
+          <button>
+            <Link to="/products">Explorar productos</Link>
+          </button>
+        </section>
       </div>
-    );
-  };
-  
-  export default HomePage;
-  
+    </div>
+  );
+};
+
+export default HomePage;
