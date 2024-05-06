@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <section>
+    <main>
       
       <Router>
       <Navbar />  
@@ -19,7 +19,7 @@ const App = () => {
         </Routes>
       </div>
     </Router>
-    </section>
+    </main>
     
   )
 }
